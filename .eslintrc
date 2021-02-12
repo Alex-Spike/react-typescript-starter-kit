@@ -49,5 +49,13 @@
         "tsx": "never"
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
 }
